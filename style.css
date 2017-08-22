@@ -1,0 +1,135 @@
+body{
+  padding: 0 auto;
+  margin: 0 auto;
+}
+#main-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #FC7A70;
+  color:white;
+  text-decoration: none;
+  height: 50px;
+  align-items: center;
+}
+.nav-link{
+  padding:5px 15px 0 15px;
+}
+.nav-link a{
+  text-decoration: none;
+  color: white;
+}
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#homepage input{
+  width: 600px;
+}
+h2{
+  color:#FC7A70;
+}
+#contactpage input{
+  width: 600px;
+  height: 50px;
+  margin-bottom: 20px;
+  border: none;
+}
+#contactpage{
+  height: 500px;
+}
+.inputcomments{
+  height:100px;
+}
+
+.projectpreview{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pro1 img{
+  height: 300px;
+  flex-basis: 30%;
+  margin: 15px;
+  padding-right: 15px;
+}
+.pro2 img{
+  height: 300px;
+  flex-basis: 30%;
+  margin:15px 0;
+  padding-right: 15px;
+
+}
+.pro3 img{
+  height: 300px;
+  flex-basis: 30%;
+  margin: 15px;
+}
+
+h3{
+  color:#FC7A70;
+  text-align: center;
+}
+/*.pro2 img{
+  flex-basis: 32%;
+    max-width: 400px;
+  padding-right: 20px;
+}*/
+/*.pro3 img{
+  flex-basis: 32%;
+    max-width: 400px;
+  padding-right: 20px;
+}*/
+.comments{
+  height:40px;
+}
+.name-header{
+  text-align: center;
+  color:#FC7A70;
+}
+.aboutme{
+  text-align: center;
+    color:#FC7A70;
+}
+.socialmedia footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+ background-color: #FC7A70;
+}
+.linkedin{
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  padding:10px;
+  margin: 10px;
+}
+.linkedin img{
+  height: 40px;
+}
+.insta{
+  display: flex;
+  flex-direction: row;
+  width:40px;
+  padding:10px;
+  margin: 10px;
+}
+.insta img{
+  height: 40px;
+}
+.github{
+  display: flex;
+  flex-direction: row;
+  width: 40px;
+  padding:10px;
+  margin: 10px;
+}
+.github img{
+  height: 40px;
+}
+.title{
+  text-align: center;
+}
