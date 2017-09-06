@@ -1,23 +1,11 @@
+/*font-family: 'Questrial', sans-serif;*/
+/*text #005F22*/
+/*background #E3F9EC*/
 body{
   padding: 0 auto;
   margin: 0 auto;
-}
-#main-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  background-color: #FC7A70;
-  color:white;
-  text-decoration: none;
-  height: 50px;
-  align-items: center;
-}
-.nav-link{
-  padding:5px 15px 0 15px;
-}
-.nav-link a{
-  text-decoration: none;
-  color: white;
+  background-color: #E3F9EC;
+  font-family: 'Questrial', sans-serif;
 }
 .contact-form{
   display: flex;
@@ -25,85 +13,105 @@ body{
   justify-content: center;
   align-items: center;
 }
-#homepage input{
-  width: 600px;
+
+.myinfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
 }
-h2{
-  color:#FC7A70;
+.myinfo a{
+  text-decoration: none;
+  color:#006531;
 }
-#contactpage input{
-  width: 600px;
-  height: 50px;
-  margin-bottom: 20px;
-  border: none;
+.myresume{
+  padding-right: 10px;
 }
-#contactpage{
-  height: 500px;
-}
+
 .inputcomments{
   height:100px;
-}
-.mememe{
-  display: flex;
-  flex-direction:row;
 }
 
 .projectpreview{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutproject{
+  font-size: 20px;
+  width: 400px;
+  color:#006531;
+  text-align: center;
+  margin:0 auto;
+  padding-bottom: 10px;
 }
 
 .pro1 img{
-  height: 300px;
-  flex-basis: 30%;
+  width: 500px;
   margin: 15px;
   padding-right: 15px;
+  filter: grayscale(100%);
+}
+.pro1 img:hover{
+  filter: grayscale(0%);
 }
 .pro2 img{
-  height: 300px;
-  flex-basis: 30%;
+  width: 500px;
   margin:15px 0;
   padding-right: 15px;
-
+  filter: grayscale(100%);
+}
+.pro2 img:hover{
+  filter: grayscale(0%);
 }
 .pro3 img{
-  height: 300px;
-  flex-basis: 30%;
+  width: 500px;
   margin: 15px;
+  filter: grayscale(100%);
+}
+.pro3 img:hover{
+  filter: grayscale(0%);
 }
 
-h3{
-  color:#FC7A70;
+h2{
+  color:#006531;
   text-align: center;
+  font-weight: 400;
 }
-/*.pro2 img{
-  flex-basis: 32%;
-    max-width: 400px;
-  padding-right: 20px;
-}*/
-/*.pro3 img{
-  flex-basis: 32%;
-    max-width: 400px;
-  padding-right: 20px;
-}*/
-.comments{
-  height:40px;
-}
+
 .name-header{
   text-align: center;
-  color:#FC7A70;
+  color:#006531;
 }
 .aboutme{
   text-align: center;
-    color:#FC7A70;
+    color:#006531;
+    font-size: 20px;
+}
+.socialmedia{
+  background-color:#81c190;
 }
 .socialmedia footer{
   display: flex;
   justify-content: center;
   flex-direction: row;
- background-color: #FC7A70;
 }
+.socialmedia a{
+  background-color:#81c190;
+  border-radius: 8px;
+}
+.emailaddress{
+  text-align: center;
+color:#fff;
+padding-top: 10px;
+}
+.emailaddress a{
+  text-decoration: none;
+  color:#fff;
+}
+
 .linkedin{
   display: flex;
   flex-direction: row;
@@ -134,18 +142,26 @@ h3{
 .github img{
   height: 40px;
 }
-.title{
-  text-align: center;
-}
-.resume{
+
+.homeme{
   display: flex;
+  flex-direction: row;
+  text-align: center;
   justify-content: center;
-  padding: 30px;
-  background-color: #f3f3f3;
+  align-items: center;
+  padding-top: 50px;
 }
-.resume img{
-  height: 800px;
+.mememe{
+  color: #81c190;
+  display: flex;
+  flex-direction:column;
+  font-size: 40px;
 }
 .me img{
-  height: 200px;
+  height: 400px;
+  padding: 20px;
+  filter: grayscale(100%);
+}
+.me img:hover{
+filter: grayscale(0%);
 }
