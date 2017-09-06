@@ -43,6 +43,10 @@ h2{
 .inputcomments{
   height:100px;
 }
+.mememe{
+  display: flex;
+  flex-direction:row;
+}
 
 .projectpreview{
   display: flex;
@@ -132,4 +136,16 @@ h3{
 }
 .title{
   text-align: center;
+}
+.resume{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  background-color: #f3f3f3;
+}
+.resume img{
+  height: 800px;
+}
+.me img{
+  height: 200px;
 }
