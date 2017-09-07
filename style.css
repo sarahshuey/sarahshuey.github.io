@@ -6,6 +6,7 @@ body{
   margin: 0 auto;
   background-color: #E3F9EC;
   font-family: 'Questrial', sans-serif;
+  width: 100%;
 }
 .contact-form{
   display: flex;
@@ -132,7 +133,9 @@ padding-top: 10px;
   text-decoration: none;
   color:#fff;
 }
-
+.logo img{
+  width: 50px;
+}
 .linkedin{
   display: flex;
   flex-direction: row;
@@ -166,7 +169,7 @@ padding-top: 10px;
 
 .homeme{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -176,11 +179,8 @@ padding-top: 10px;
   color: #81c190;
   display: flex;
   flex-direction:column;
-  font-size: 18px;
+  font-size: 12px;
   margin: 20px;
-}
-.homeme{
-  justify-content: center;
 }
 
 .me{
@@ -220,7 +220,7 @@ filter: grayscale(100%);
   font-size: 20px;
 }
 }
-@media screen and (min-width: 780px){
+@media screen and (min-width: 720px){
   .homeme{
     width: 135%;
   }
@@ -229,6 +229,9 @@ filter: grayscale(100%);
   }
   .socialmedia{
     width: 135%;
+  }
+  .logo img{
+    width: 75px;
   }
 .myinfo{
   width: 135%;
@@ -239,6 +242,21 @@ filter: grayscale(100%);
   width: 135%;
   justify-content: center;
 }
+.homeme{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.mememe{
+  color: #81c190;
+  display: flex;
+  flex-direction:column;
+  margin: 20px;
+}
+
 
 }
 @media screen and (min-width: 1030px) {
@@ -330,5 +348,7 @@ h2{
   width: 100%;
   justify-content: center;
 }
-
+.logo img{
+  width: 100px;
+}
 }
