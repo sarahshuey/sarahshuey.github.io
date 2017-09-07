@@ -164,3 +164,51 @@ padding-top: 10px;
 .me img:hover{
 filter: grayscale(0%);
 }
+@media screen and (min-width: 425px){
+  .me img{
+    height: 200px;
+  }
+  .aboutme{
+    font-size: 20px;
+  }
+  .name-header{
+    font-size: 24px;
+  }
+  .pro1 img{
+    width: 400px;
+  }
+  .pro2 img{
+    width: 400px;
+  }
+  .pro3 img{
+    width: 400px;
+  }
+.aboutproject{
+  width: 400px;
+}
+}
+
+@media screen and (min-width: 780px){
+  .me img{
+    height: 350px;
+  }
+  .aboutme{
+    font-size: 24px;
+  }
+  .name-header{
+    font-size: 40px;
+  }
+  .pro1 img{
+    width: 500px;
+  }
+  .pro2 img{
+    width: 500px;
+  }
+  .pro3 img{
+    width: 500px;
+  }
+.aboutproject{
+  width: 450px;
+  font-size: 20px;
+}
+}
