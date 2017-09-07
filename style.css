@@ -6,7 +6,6 @@ body{
   margin: 0 auto;
   background-color: #E3F9EC;
   font-family: 'Questrial', sans-serif;
-  width: 100%;
 }
 .contact-form{
   display: flex;
@@ -216,10 +215,6 @@ filter: grayscale(100%);
 }
 }
 @media screen and (min-width: 780px){
-  body{
-    max-width: 999px;
-    width: 100%;
-  }
   .homeme{
     width: 135%;
   }
@@ -241,9 +236,7 @@ filter: grayscale(100%);
 
 }
 @media screen and (min-width: 1050px) {
-  body{
-    max-width: 1880px;
-  }
+
   .homeme{
     width: 100%;
   }
@@ -330,4 +323,10 @@ h2{
   margin-top: 30px;
   width: 100%;
 }
+.projectstitle{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
 }
