@@ -216,8 +216,7 @@ filter: grayscale(100%);
 }
 }
 
-@media screen and (min-width: 780px)
-{
+@media screen and (min-width: 780px){
   .projectpreview{
     display: flex;
     align-content: center;
