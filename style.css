@@ -7,7 +7,6 @@ body{
   background-color: #E3F9EC;
   font-family: 'Questrial', sans-serif;
   width: 100%;
-  max-width: 1880px;
 }
 .contact-form{
   display: flex;
@@ -190,6 +189,7 @@ padding-top: 10px;
 filter: grayscale(100%);
 }
 @media screen and (min-width: 425px){
+
   .me img{
     height: 200px;
   }
@@ -215,13 +215,45 @@ filter: grayscale(100%);
   font-size: 20px;
 }
 }
-
 @media screen and (min-width: 780px){
+  body{
+    max-width: 999px;
+    width: 100%;
+  }
+  .homeme{
+    width: 135%;
+  }
+  .projectpreview{
+    width: 135%;
+  }
+  .socialmedia{
+    width: 135%;
+  }
+.myinfo{
+  width: 135%;
+  text-align: center;
+}
+.projectstitle{
+  display: flex;
+  width: 135%;
+  justify-content: center;
+}
+
+}
+@media screen and (min-width: 1050px) {
+  body{
+    max-width: 1880px;
+  }
+  .homeme{
+    width: 100%;
+  }
+
   .projectpreview{
     display: flex;
     align-content: center;
     justify-content: space-around;
     margin: 0 auto;
+    width: 100%;
   }
   .me img{
     height: 350px;
@@ -231,6 +263,7 @@ filter: grayscale(100%);
   }
   .name-header{
     font-size: 40px;
+
   }
   .pro1{
     display: flex;
@@ -283,15 +316,18 @@ filter: grayscale(100%);
   font-size: 20px;
   line-height: 2em;
   justify-content: center;
+  padding-left: 15px;
 }
 h2{
   font-size: 40px;
 }
 .myinfo{
   font-size: 24px;
+  width: 100%;
 }
 .socialmedia{
   padding-top: 15px;
   margin-top: 30px;
+  width: 100%;
 }
 }
