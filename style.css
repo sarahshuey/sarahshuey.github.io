@@ -6,6 +6,8 @@ body{
   margin: 0 auto;
   background-color: #E3F9EC;
   font-family: 'Questrial', sans-serif;
+  width: 100%;
+  max-width: 1880px;
 }
 .contact-form{
   display: flex;
@@ -19,14 +21,18 @@ body{
   flex-direction: row;
   justify-content: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 18px;
+  background-color: #81c190;
 }
 .myinfo a{
   text-decoration: none;
-  color:#006531;
+  color:#fff;
 }
 .myresume{
-  padding-right: 10px;
+  padding-right: 20px;
+}
+.email{
+  padding-left: 20px;
 }
 
 .projectpreview{
@@ -35,9 +41,10 @@ body{
   justify-content: center;
   align-items: center;
   text-align: center;
+  width: 100%;
 }
 .aboutproject{
-  font-size: 16px;
+  font-size: 20px;
   width: 300px;
   color:#006531;
   text-align: center;
@@ -71,11 +78,28 @@ body{
 .pro3 img:hover{
   filter: grayscale(0%);
 }
+.pro1{
+  width: 100%;
+}
+.pro2{
+    background-color: #81c190;
+    color: #fff;
+    width: 100%;
+  }
 
+.pro3{
+  width: 100%;
+}
 h2{
   color:#006531;
   text-align: center;
   font-weight: 400;
+}
+.aboutproject2 h2{
+  color: #fff;
+}
+.aboutproject2{
+  color: #fff;
 }
 
 .name-header{
@@ -86,7 +110,7 @@ h2{
 .aboutme{
   text-align: center;
     color:#006531;
-    font-size: 12px;
+    font-size: 20px;
     padding-right: 5px;
 }
 .socialmedia{
@@ -160,10 +184,10 @@ padding-top: 10px;
 .me img{
   height: 150px;
   padding: 20px;
-  filter: grayscale(100%);
+  /*filter: grayscale(100%);*/
 }
 .me img:hover{
-filter: grayscale(0%);
+filter: grayscale(100%);
 }
 @media screen and (min-width: 425px){
   .me img{
@@ -192,7 +216,14 @@ filter: grayscale(0%);
 }
 }
 
-@media screen and (min-width: 780px){
+@media screen and (min-width: 780px)
+{
+  .projectpreview{
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    margin: 0 auto;
+  }
   .me img{
     height: 350px;
   }
@@ -202,23 +233,66 @@ filter: grayscale(0%);
   .name-header{
     font-size: 40px;
   }
-  .pro1 img{
-    width: 600px;
+  .pro1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
+  .pro1 img{
+    width: 450px;
+    padding-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+  }
+  .pro2{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+  .aboutproject2{
+    color: #fff;
+    width: 450px;
+  }
+  .aboutproject2 h2{
+    color: #fff;
+}
   .pro2 img{
-    width: 600px;
+    width: 450px;
+    padding-right: 55%;
+    padding-left: 15%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  .pro3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
   .pro3 img{
-    width: 600px;
+    width: 450px;
+    padding-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
   }
 .aboutproject{
-  width: 500px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
   font-size: 20px;
+  line-height: 2em;
+  justify-content: center;
 }
 h2{
   font-size: 40px;
 }
 .myinfo{
   font-size: 24px;
+}
+.socialmedia{
+  padding-top: 15px;
+  margin-top: 30px;
 }
 }
