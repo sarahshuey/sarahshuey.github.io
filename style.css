@@ -235,7 +235,7 @@ filter: grayscale(100%);
 }
 
 }
-@media screen and (min-width: 1050px) {
+@media screen and (min-width: 1030px) {
 
   .homeme{
     width: 100%;
@@ -284,7 +284,7 @@ filter: grayscale(100%);
 }
   .pro2 img{
     width: 450px;
-    padding-right: 55%;
+    padding-right: 52%;
     padding-left: 15%;
   padding-top: 20px;
   padding-bottom: 20px;
