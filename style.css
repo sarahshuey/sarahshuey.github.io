@@ -28,10 +28,6 @@ body{
   padding-right: 10px;
 }
 
-.inputcomments{
-  height:100px;
-}
-
 .projectpreview{
   display: flex;
   flex-direction: column;
@@ -40,8 +36,8 @@ body{
   text-align: center;
 }
 .aboutproject{
-  font-size: 20px;
-  width: 400px;
+  font-size: 16px;
+  width: 300px;
   color:#006531;
   text-align: center;
   margin:0 auto;
@@ -49,7 +45,7 @@ body{
 }
 
 .pro1 img{
-  width: 500px;
+  width: 300px;
   margin: 15px;
   padding-right: 15px;
   filter: grayscale(100%);
@@ -58,7 +54,7 @@ body{
   filter: grayscale(0%);
 }
 .pro2 img{
-  width: 500px;
+  width: 300px;
   margin:15px 0;
   padding-right: 15px;
   filter: grayscale(100%);
@@ -67,7 +63,7 @@ body{
   filter: grayscale(0%);
 }
 .pro3 img{
-  width: 500px;
+  width: 300px;
   margin: 15px;
   filter: grayscale(100%);
 }
@@ -84,11 +80,13 @@ h2{
 .name-header{
   text-align: center;
   color:#006531;
+  padding-right: 5px;
 }
 .aboutme{
   text-align: center;
     color:#006531;
-    font-size: 20px;
+    font-size: 12px;
+    padding-right: 5px;
 }
 .socialmedia{
   background-color:#81c190;
@@ -155,10 +153,11 @@ padding-top: 10px;
   color: #81c190;
   display: flex;
   flex-direction:column;
-  font-size: 40px;
+  font-size: 20px;
 }
+
 .me img{
-  height: 400px;
+  height: 150px;
   padding: 20px;
   filter: grayscale(100%);
 }
