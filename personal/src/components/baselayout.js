@@ -46,10 +46,10 @@ class BaseLayout extends Component {
                   <div className="dropdown">
                     <button className="dropbtn"><img src={ham} alt="Menu"></img></button>
                     <div className="dropdown-content">
-                      <a href="/">Home</a>
-                      <a href="/about">About</a>
-                      <a href="/allprojects">Projects</a>
-                      <a href="/resume">Resume</a>
+                    <NavLink activeClassName="selected" to="/"> Home</NavLink>
+                      <NavLink activeClassName="selected" to="/about"> about</NavLink>
+                      <NavLink activeClassName="selected" to="/allprojects"> Projects </NavLink>
+                      <NavLink activeClassName="selected" to="/resume"> Resume</NavLink>
                     </div>
                   </div>
                 </div>
