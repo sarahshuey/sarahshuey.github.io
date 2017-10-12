@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import ham from '../images/menu.png'
+import insta from '../images/instagram.png'
+import link from '../images/linkedin.png'
+import git from '../images/github.png'
+
 import '../styles/App.css';
 
 
@@ -19,9 +23,9 @@ class BaseLayout extends Component {
           "color":"#007F86",
         }
         let footer = {
-          "backgroundColor": "white",
+          "backgroundColor": "#4171c9",
           "textAlign": "center",
-          "color":"#4171c9",
+          "color":"white",
           "borderTopWidth":"3px",
           "borderTopColor":"#4171c9",
           "borderTopStyle":"solid",
@@ -54,12 +58,12 @@ class BaseLayout extends Component {
             {this.props.children}
             <footer style={footer} className="col-lg-11">
             <div className='socialmedia'>
-            <a href="#name-header">Sarah Shuey</a>
+            <a href="#name-header" style={{fontSize:"20px",color:"white",textDecoration:"none"}}>Sarah Shuey</a>
             <p>shueysarah@gmail.com | (214)437-7729</p>
             </div>
-            <a target = "_blank" className = 'linkedin' href="https://www.linkedin.com/in/sarahshuey/"><img src="images/linkedin.png" alt="LinkedIn"></img></a>
-            <a target = "_blank" className ='insta' href="https://www.instagram.com/sarahshuey/"><img src="images/instagram.png" alt="Instagram"></img></a>
-            <a target = "_blank" className ='github' href="https://github.com/sarahshuey"><img src="images/github.png" alt="GitHub"></img></a>
+            <a target = "_blank" className = 'linkedin' href="https://www.linkedin.com/in/sarahshuey/"><img src={link} alt="LinkedIn" style={{height:"30px",padding:"10px",margin:"10px"}}></img></a>
+            <a target = "_blank" className ='insta' href="https://www.instagram.com/sarahshuey/"><img src={insta} alt="Instagram" style={{height:"30px",padding:"10px",margin:"10px"}}></img></a>
+            <a target = "_blank" className ='github' href="https://github.com/sarahshuey"><img src={git} alt="GitHub" style={{height:"30px",padding:"10px",margin:"10px"}}></img></a>
             </footer>
           </div>
         );
