@@ -45,6 +45,7 @@ class BaseLayout extends Component {
                       <a href="/">Home</a>
                       <a href="/about">About</a>
                       <a href="/allprojects">Projects</a>
+                      <a href="/resume">Resume</a>
                     </div>
                   </div>
                 </div>
