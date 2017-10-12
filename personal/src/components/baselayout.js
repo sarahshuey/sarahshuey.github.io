@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import ham from '../images/menu.png'
+import ham from '../images/blueham.png'
 import insta from '../images/instagram.png'
 import link from '../images/linkedin.png'
 import git from '../images/github.png'
+import logo from '../images/S.png'
 
 import '../styles/App.css';
 
@@ -13,7 +14,7 @@ class BaseLayout extends Component {
     let navTitle = {
           "fontFamily": "Arizonia",
           "fontSize": "20px",
-          "backgroundColor": 'white',
+          "backgroundColor": '#4171c9',
           "textAlign": "center",
           "textDecoration": "none",
           "display":"flex",
@@ -32,17 +33,18 @@ class BaseLayout extends Component {
           "paddingTop":"25px"
         }
         let border ={
-          "borderBottomWidth":"3px",
-          "borderBottomColor":"#4171c9",
-          "borderBottomStyle":"solid",
           "postion":"relative",
-          "overflow":"hidden"
+          "overflow":"hidden",
+          "justifyContent":"center"
         }
         return (
           <div className="body">
-            <nav className="row navbar navbar-inverse">
+            <nav className="row navbar navbar-inverse" style={{backgroundColor:"#4171c9"}}>
               <div className="container-fluid">
                 <div style={border} className="navbar-header">
+                <div className='logoimg'>
+                <NavLink activeClassName="selected" to="/"><img src={logo} alt="logo"></img></NavLink>
+                </div>
                   <div className="dropdown">
                     <button className="dropbtn"><img src={ham} alt="Menu"></img></button>
                     <div className="dropdown-content">
