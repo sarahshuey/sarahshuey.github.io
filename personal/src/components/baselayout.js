@@ -35,7 +35,7 @@ class BaseLayout extends Component {
         let border ={
           "postion":"relative",
           "overflow":"hidden",
-          "justifyContent":"center"
+          "justifyContent":"center",
         }
         return (
           <div className="body">
@@ -49,7 +49,7 @@ class BaseLayout extends Component {
                     <button className="dropbtn"><img src={ham} alt="Menu"></img></button>
                     <div className="dropdown-content">
                     <NavLink activeClassName="selected" to="/"> Home</NavLink>
-                      <NavLink activeClassName="selected" to="/about"> about</NavLink>
+                      <NavLink activeClassName="selected" to="/about"> About</NavLink>
                       <NavLink activeClassName="selected" to="/allprojects"> Projects </NavLink>
                       <NavLink activeClassName="selected" to="/resume"> Resume</NavLink>
                     </div>
