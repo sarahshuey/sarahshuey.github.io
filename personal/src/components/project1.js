@@ -15,7 +15,11 @@ import React, { Component } from 'react';
         }
         return (
           <div className="project1">
+          <h2> Music Player</h2>
+          <h3>About</h3>
           <p>The Music Player is a project I did that allows you to access Apples API and search for any artist and listen to the first 30 seconds of the song.</p>
+          <h3>Process</h3>
+          <p></p>
           </div>
         );
       }

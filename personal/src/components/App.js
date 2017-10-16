@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
 import sarah from '../images/IMG_8737.JPG'
+import pdf from '../documents/Sarah_Shuey_Blue.pdf'
+import { Link } from 'react-router-dom';
 
 
 class App extends Component {
@@ -53,7 +55,7 @@ class App extends Component {
 </div>
 <div className='myinfo'style={infostyle}>
 <p className='myresume'>
-<a target = "_blank" href="sarah_shuey.pdf" style={resumestyle}>DOWNLOAD RESUME</a>
+<Link target = "_blank" to={pdf} style={resumestyle}>DOWNLOAD RESUME</Link>
 </p>
 <p className ='email'>
   <a href="#socialmedia" style={contactstyle}>CONTACT ME</a>

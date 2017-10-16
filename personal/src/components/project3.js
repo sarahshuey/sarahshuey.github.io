@@ -15,7 +15,11 @@ import React, { Component } from 'react';
         }
         return (
           <div className="project1">
+          <h2> Company Directory </h2>
+          <h3> About </h3>
           <p>The Company Directory was built to highlight CSS skills such as flexbox, hover effects, and responsive layouts.</p>
+          <h3> Process </h3>
+          <p></p>
           </div>
         );
       }

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import resume from '../images/SarahShuey.png'
-import pdf from '../documents/sarah_shuey.pdf'
+import resume from '../images/Sarah_Shuey.png'
+import pdf from '../documents/Sarah_Shuey_Blue.pdf'
 import { Link } from 'react-router-dom';
 
 class Resume extends Component {
