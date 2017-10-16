@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 
-    class Project extends Component {
+    class ProjectTwo extends Component {
       render() {
         let aboutStyle={
           display:"flex",
@@ -15,7 +15,7 @@ import React, { Component } from 'react';
           textAlign:"center"
         }
         return (
-          <div className="project1">
+          <div className="project1" style={textStyle}>
           <h2> Project 2</h2>
           <h3> About </h3>
         <p>This page was a mock up that I made in order to show my abilities to build a responsive web page.</p>
@@ -25,4 +25,4 @@ import React, { Component } from 'react';
         );
       }
       }
-export default Project
+export default ProjectTwo

@@ -30,19 +30,23 @@ class App extends Component {
     }
 
     let imgstyle={
-      height:"500px",
-      paddingRight:"20px"
+      width:"350px",
+      paddingRight:"20px",
+      borderRadius:"280px",
     }
     let style={
       display:"flex",
-      flexDirection:"row",
+      flexDirection:"column",
       justifyContent:"center",
-      paddingTop:"20px"
+      paddingTop:"20px",
+      alignContent:"center",
+      alignItems:"center",
+      backgroundColor:"#dae2ef"
     }
     return (
 <div className="App">
 <div className='me' style={style}>
-<img src={sarah} alt="Sarah and a Dog" style={imgstyle}></img>
+<img className='img'src={sarah} alt="Sarah and a Dog" style={imgstyle}></img>
 <div className='mememe' style={headstyle}>
 <div className = 'name-header'>
 <p className='sarah' style={{fontSize:"30px"}}>SARAH SHUEY</p>
@@ -52,14 +56,6 @@ class App extends Component {
 <p>Lover of dogs, tacos, and margaritas</p>
 </div>
 </div>
-</div>
-<div className='myinfo'style={infostyle}>
-<p className='myresume'>
-<Link target = "_blank" to={pdf} style={resumestyle}>DOWNLOAD RESUME</Link>
-</p>
-<p className ='email'>
-  <a href="#socialmedia" style={contactstyle}>CONTACT ME</a>
-</p>
 </div>
 </div>
 
