@@ -84,6 +84,11 @@ footer{
 .pro img{
   width:300px;
   padding:10px;
+  filter: grayscale(100%);
+}
+.pro img:hover{
+  filter: grayscale(0%);
+
 }
 .links{
   display: flex;

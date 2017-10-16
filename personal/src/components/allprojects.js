@@ -12,11 +12,11 @@ class Projects extends Component {
       <h2>Music Player</h2>
       <img src={preview1} alt="Music Player"></img>
       <div className="links">
-      <div className="link1" style={{paddingRight:10}}>
-      <Link  className="process" activeClassName="selected" to="/project1">View Process</Link>
+      <div style={{paddingRight:10}}>
+      <Link  className="process" activeClassName="selected" to="/project1">View Code</Link>
       </div>
       <div>
-      <Link className="live" activeClassName="selected" to="/project1">View Live</Link>
+      <a  className="live" target ="_blank" href="http://swanky-bed.surge.sh/">View Live</a>
       </div>
       </div>
       </div>
@@ -24,11 +24,11 @@ class Projects extends Component {
       <h2>Project Name</h2>
       <img src={preview1} alt="Music Player"></img>
       <div className="links">
-      <div className="link1" style={{paddingRight:10}}>
-      <Link className="process" activeClassName="selected" to="/project2">View Process</Link>
+      <div style={{paddingRight:10}}>
+      <Link className="process" activeClassName="selected" to="/project2">View Code</Link>
       </div>
       <div>
-      <Link className="live" activeClassName="selected" to="/project2">View Live</Link>
+      <a  className="live" target ="_blank" href="http://venomous-bears.surge.sh/">View Live</a>
       </div>
       </div>
       </div>
@@ -36,11 +36,11 @@ class Projects extends Component {
       <h2>Company Directory</h2>
       <img src={preview3} alt="Comapny Directory"></img>
       <div className="links">
-      <div className="link1" style={{paddingRight:10}}>
-      <Link className="process" activeClassName="selected" to="/project3">View Process</Link>
+      <div  style={{paddingRight:10}}>
+      <Link className="process" activeClassName="selected" to="/project3">View Code</Link>
       </div>
       <div>
-      <Link className="live" activeClassName="selected" to="/project3">View Live</Link>
+      <a  className="live" target ="_blank" href="http://venomous-bears.surge.sh/">View Live</a>
       </div>
       </div>
       </div>
