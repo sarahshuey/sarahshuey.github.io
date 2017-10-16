@@ -3,27 +3,28 @@ import React, { Component } from 'react';
 
 class About extends Component {
   render() {
-    let aboutStyle={
-      display:"flex",
-      flexDirection:"row",
-      color:"#4171c9",
-      textAlign:"center"
-    }
-    let textStyle={
-      color:"#4171c9",
-      lineHeight:"50px",
-      paddingRight:"20px",
-      textAlign:"center"
-    }
+
     return (
       <div className="App">
-        <div className="page" style={aboutStyle}>
-        <div className="SarahPic">
+        <div className="aboutPage">
+        <div className="sarahPic">
         </div>
-        <div className="AboutSarah" style={{color:"#4171c9"}}>
-      <p style={textStyle}> Hi there! I am Sarah<br></br>
-      My background is unique to me, and I am here to share it with you. To talk about where I am not is impossible to not first tell you about how I got here. To start during my highschool summers I attened a Military camp in northern Indiana where I learned not only to sail but also some of the most valuable life leasons. I learned the meaning of self discipline, how to be both a leader and a follower, and the importance of time management. Because of my summers in Indiana I decided to attened Inidana University where I began a undergrate degree in Business. After two years in school I decdied to head back down south and transfered to The Univeristy of Texas for my last two years of school studing Government. Upon graduation I accepted a job with a local start up, unforunantly for me the company closed its doors within three months of me starting there. At the time I was devestated but looking back on it I realize I would not be pursing something I throughly enjoy if this had not happend. Next I accepted a temp job with a local tech company in Austin doing data clean up. Because of this job I was able to see the ends and outs of the tech world and decdied I wanted to change my career path. Today I am a graudate of a three month immersive program and I am proud to say that I am a front end web developer.
-        </p>
+        <div className="aboutSarah">
+      <p className="sarahTitle"> Hi There, I'm Sarah!</p>
+    <div className="sarahBio">
+    <p>
+    Through my diverse background working with both startups and large corporations, I bring a unique view to the table.  As a fast learner, I am eager to solve problems and can thrive in a fast paced environment.
+    </p>
+    <p>
+    When working in a diverse team, adapting to personalities is an important skill, which I have honed and have excellent emotional intelligence instincts. I enjoy working with others, complementing our strengths, and aligning people to a common goal, ultimately allowing my team to succeed.
+    </p>
+    <p>
+    In situations that are high stress, often coupled with daunting deadlines, I rise to the occasion.  I am flexible to both lead a project and group, as well as be a team player able to take direction. I focus on my strengths, knowing that I will also learn from others on my team, allowing me to cultivate new competencies and bolster my own capabilities.
+    </p>
+    <p>
+    I am a driven individual who exudes a strong work ethic and will be a valuable asset to your team and would welcome the opportunity to discuss this further.
+    </p>
+        </div>
         </div>
       </div>
       </div>

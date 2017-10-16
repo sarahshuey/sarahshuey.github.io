@@ -18,6 +18,15 @@ footer{
   height: 100px;
   color: white;
 }
+.navLink{
+  text-decoration: none;
+  padding-right: 20px;
+  color: white;
+  font-family:'Playfair Display', serif;
+}
+.navLink:hover{
+  color:#022468
+}
 .imgsarah{
   width:350px;
   border-radius: 280px
@@ -69,7 +78,8 @@ footer{
   color:#4171c9;
   line-height: 50px;
   text-align: center;
-  background-color: #dae2ef
+  background-color: #dae2ef;
+  font-family: 'Playfair Display', serif;
 }
 .pro img{
   width:300px;
@@ -110,7 +120,7 @@ footer{
   flex-direction: row
 }
 .project img{
-  height:400px;
+  height:300px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -124,4 +134,31 @@ footer{
   display: flex;
   flex-direction: column;
   color:#4171c9
+}
+.aboutPage{
+  display: flex;
+  flex-direction: row;
+  color:#4171c9;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.aboutSarah{
+color:#4171c9;
+display: flex;
+flex-direction: column;
+}
+.sarahBio{
+  color:#4171c9;
+  line-height: 35px;
+  text-align: left;
+  padding:0px 100px 60px 100px
+}
+.sarahBio p{
+  padding: 0px 0 10px 0;
+}
+.sarahTitle{
+  font-size:20px;
+  text-align:left;
+  padding:60px 100px 0 100px;
+  font-weight: bold;
 }

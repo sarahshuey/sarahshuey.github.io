@@ -10,21 +10,15 @@ import '../styles/App.css';
 class BaseLayout extends Component {
   render() {
 
-        let linkStyle={
-          textDecoration:"none",
-          paddingRight:"10px",
-          color:"white",
-          fontFamily:"'Playfair Display', serif"
-        }
         return (
           <div className="body" style={{backgroundColor:"#dae2ef"}}>
             <nav className="row navbar navbar-inverse" style={{backgroundColor:"#4171c9"}}>
               <div className="container-fluid">
                 <div className="border">
-                    <NavLink style={linkStyle} activeClassName="selected" to="/"> Home</NavLink>
-                      <NavLink style={linkStyle} activeClassName="selected" to="/about"> About</NavLink>
-                      <NavLink style={linkStyle} activeClassName="selected" to="/allprojects"> Projects </NavLink>
-                      <NavLink style={linkStyle} activeClassName="selected" to="/resume"> Resume</NavLink>
+                    <NavLink className="navLink" activeClassName="selected" to="/"> Home</NavLink>
+                      <NavLink className="navLink" activeClassName="selected" to="/about"> About</NavLink>
+                      <NavLink className="navLink" activeClassName="selected" to="/allprojects"> Projects </NavLink>
+                      <NavLink className="navLink" activeClassName="selected" to="/resume"> Resume</NavLink>
                 </div>
               </div>
             </nav>
