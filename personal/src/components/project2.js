@@ -12,10 +12,10 @@ import preview from '../images/bartoncreek.png'
           <div className="project">
           <img src={preview} alt="project"></img>
           <div className="aboutProject">
-          <h3> About </h3>
-        <p>This was a group project where we built a page for a local bike store, it shows where the store is located on a map, and a scrolling image effect on the images.</p>
+          <h3> What I Did: </h3>
+        <p>I worked on this in order to gain experience working on a collaborative project. The purpose of this page is to utilize github and brodern our scope of css tools. </p>
         <div className="processProject">
-        <h3> Process </h3>
+        <h3> How I Did It:  </h3>
         <p>First we figured out what the scope of the project was and then split the work between the three of us. Next I worked on the map location, styling, and responsivness. This project tested our abilities to work as a team and pushing to github without merge conflicts.</p>
           </div>
           </div>

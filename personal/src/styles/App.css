@@ -120,9 +120,10 @@ footer{
 .project{
   color:#4171c9;
   line-height: 30px;
-  text-align: center;
+  text-align: left;
   display: flex;
-  flex-direction: row
+  flex-direction: row;
+  width: 200px;
 }
 .project img{
   height:300px;
