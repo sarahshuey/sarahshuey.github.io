@@ -8,11 +8,11 @@ class Resume extends Component {
 
     return (
       <div className="bodyResume">
-      <div className="link">
-      <Link activeClassName="selected" to={pdf} target="_blank" style={{textDecoration:"none",color:"#4171c9"}}> Download Resume</Link>
-      </div>
       <div className="resumePic">
         <img src={resume} alt="Sarah Shuey Resume"></img>
+      </div>
+      <div className="link">
+      <Link activeClassName="selected" to={pdf} target="_blank" style={{textDecoration:"none",color:"#4171c9"}}> Download Resume</Link>
       </div>
       </div>
     );

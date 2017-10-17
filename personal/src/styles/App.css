@@ -14,13 +14,13 @@ footer{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  font-size: 25px;
-  height: 100px;
+  font-size: 15px;
+  height: 80px;
   color: white;
 }
 .navLink{
   text-decoration: none;
-  padding-right: 20px;
+  padding-right: 10px;
   color: white;
   font-family:'Playfair Display', serif;
 }
@@ -28,7 +28,7 @@ footer{
   color:#022468
 }
 .imgsarah{
-  width:350px;
+  width:250px;
   border-radius: 280px
 }
 .me{
@@ -52,7 +52,7 @@ footer{
   border-style: solid;
   background-color: #dae2ef;
   border-width: 5px;
-  height:1000px;
+  height:300px;
   display: flex;
   justify-content: center;
   padding: 20px
@@ -66,9 +66,11 @@ footer{
   border-style: solid;
   background-color: #dae2ef;
   align-content: end;
+  margin-bottom: 10px
 }
 .bodyResume{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   color:#4171c9;
   align-items: center;
@@ -111,22 +113,43 @@ footer{
   border-width: 3px;
   text-decoration: none;
   text-align: center;
-  padding: 5px
+  padding: 5px;
+  align-self : center
 }
-.projectHead{
+.liveDiv{
+  display: flex;
+  justify-content: center;
+}
+.code{
   color:#4171c9;
+  border-color: #4171c9;
+  border-style: solid;
+  border-width: 3px;
+  text-decoration: none;
   text-align: center;
+  padding: 5px;
 }
+.imgPreview{
+  flex-direction: column;
+}
+.individual{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
 .project{
   color:#4171c9;
   line-height: 30px;
   text-align: left;
   display: flex;
-  flex-direction: row;
-  width: 200px;
+  justify-content: center;
+  flex-direction: column;
+  width: 330px;
 }
 .project img{
-  height:300px;
+  width:300px;
   display: flex;
   justify-content: center;
   padding: 20px;
@@ -157,7 +180,7 @@ flex-direction: column;
   color:#4171c9;
   line-height: 35px;
   text-align: left;
-  padding:0px 100px 60px 100px
+  padding:0px 50px 20px 50px
 }
 .sarahBio p{
   padding: 0px 0 10px 0;
@@ -165,6 +188,160 @@ flex-direction: column;
 .sarahTitle{
   font-size:20px;
   text-align:left;
-  padding:60px 100px 0 100px;
+  padding:50px 50px 0 50px;
   font-weight: bold;
+}
+@media screen and (min-width: 490px){
+  .resumePic img{
+    border-color: #dae2ef;
+    border-style: solid;
+    background-color: #dae2ef;
+    border-width: 5px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px
+  }
+
+  .link{
+    padding:10px;
+    font-size: 12px;
+    border-color: #4171c9;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #dae2ef;
+    align-content: end;
+    margin-bottom: 0px
+  }
+  .bodyResume{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    color:#4171c9;
+    align-items: center;
+    background-color: #dae2ef
+  }
+    .border{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      height: 100px;
+      color: white;
+    }
+    .navLink{
+      text-decoration: none;
+      padding-right: 15px;
+      color: white;
+      font-family:'Playfair Display', serif;
+    }
+    .imgsarah{
+      width:350px;
+      border-radius: 280px
+    }
+    .sarahBio{
+      color:#4171c9;
+      line-height: 35px;
+      text-align: left;
+      padding:0px 70px 40px 70px
+    }
+    .sarahBio p{
+      padding: 0px 0 10px 0;
+    }
+    .sarahTitle{
+      font-size:20px;
+      text-align:left;
+      padding:40px 70px 0 70px;
+      font-weight: bold;
+    }
+}
+@media screen and (min-width: 720px){
+  .resumePic img{
+    border-color: #dae2ef;
+    border-style: solid;
+    background-color: #dae2ef;
+    border-width: 5px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    padding: 20px
+  }
+  .border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 100px;
+    color: white;
+  }
+  .navLink{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+    font-family:'Playfair Display', serif;
+  }
+
+  .live{
+    color:#4171c9;
+    border-color: #4171c9;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    align-self : center
+  }
+  .liveDiv{
+    display: flex;
+    justify-content: center;
+  }
+  .imgPreview{
+    flex-direction: column;
+  }
+  .individual{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .project{
+    color:#4171c9;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+  }
+  .project img{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .processProject{
+    display: flex;
+    flex-direction: column;
+    color:#4171c9
+  }
+  .aboutProject{
+    display: flex;
+    flex-direction: column;
+    color:#4171c9
+  }
+  .sarahBio{
+    color:#4171c9;
+    line-height: 35px;
+    text-align: left;
+    padding:0px 100px 60px 100px
+  }
+  .sarahBio p{
+    padding: 0px 0 10px 0;
+  }
+  .sarahTitle{
+    font-size:20px;
+    text-align:left;
+    padding:60px 100px 0 100px;
+    font-weight: bold;
+  }
 }

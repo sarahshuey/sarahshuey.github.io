@@ -17,7 +17,7 @@ class Projects extends Component {
       <Link  className="process" activeClassName="selected" to="/project1">View Process</Link>
       </div>
       <div>
-      <a  className="live" target ="_blank" href="http://swanky-bed.surge.sh/">View Live</a>
+      <a  className="code" target ="_blank" href="https://github.com/sarahshuey/music-player">View Code</a>
       </div>
       </div>
       </div>
@@ -29,7 +29,7 @@ class Projects extends Component {
       <Link className="process" activeClassName="selected" to="/project2">View Process</Link>
       </div>
       <div>
-      <a  className="live" target ="_blank" href="http://venomous-bears.surge.sh/">View Live</a>
+      <a  className="code" target ="_blank" href="https://github.com/sarahshuey/Bicycle-Group">View Code</a>
       </div>
       </div>
       </div>
@@ -41,7 +41,7 @@ class Projects extends Component {
       <Link className="process" activeClassName="selected" to="/project3">View Process</Link>
       </div>
       <div>
-      <a  className="live" target ="_blank" href="http://venomous-bears.surge.sh/">View Live</a>
+      <a  className="code" target ="_blank" href="https://github.com/sarahshuey/music-player">View Code</a>
       </div>
       </div>
       </div>
