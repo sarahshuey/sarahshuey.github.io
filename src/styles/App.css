@@ -1,0 +1,357 @@
+footer{
+  background-color: #4171c9;
+  text-align: center;
+  color: white;
+  border-top-width:3px;
+  border-top-color:#4171c9;
+  border-top-style:solid;
+  padding-top:5px;
+  font-family: 'Playfair Display', serif;
+  height: 100px;
+}
+.border{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  height: 80px;
+  color: white;
+}
+.navLink{
+  text-decoration: none;
+  padding-right: 10px;
+  color: white;
+  font-family:'Playfair Display', serif;
+}
+.navLink:hover{
+  color:#022468
+}
+.imgsarah{
+  width:250px;
+  border-radius: 280px
+}
+.me{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  align-content: center;
+  align-items: center;
+  background-color: #dae2ef;
+  font-family: 'Arvo', serif;
+}
+.meme{
+  color:#4171c9;
+  text-align: center;
+  align-self: center;
+  font-size: 20px
+}
+.resumePic img{
+  border-color: #dae2ef;
+  border-style: solid;
+  background-color: #dae2ef;
+  border-width: 5px;
+  height:300px;
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
+
+.link{
+  padding:10px;
+  font-size: 15px;
+  border-color: #4171c9;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #dae2ef;
+  align-content: end;
+  margin-bottom: 10px
+}
+.bodyResume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color:#4171c9;
+  align-items: center;
+  background-color: #dae2ef
+}
+.allProjects{
+  color:#4171c9;
+  line-height: 50px;
+  text-align: center;
+  background-color: #dae2ef;
+  font-family: 'Playfair Display', serif;
+}
+.pro img{
+  width:300px;
+  padding:10px;
+  filter: grayscale(100%);
+}
+.pro img:hover{
+  filter: grayscale(0%);
+
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.process{
+  color:#4171c9;
+  border-color: #4171c9;
+  border-style: solid;
+  border-width: 3px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px
+}
+.live{
+  color:#4171c9;
+  border-color: #4171c9;
+  border-style: solid;
+  border-width: 3px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  align-self : center
+}
+.liveDiv{
+  display: flex;
+  justify-content: center;
+}
+.code{
+  color:#4171c9;
+  border-color: #4171c9;
+  border-style: solid;
+  border-width: 3px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+}
+.imgPreview{
+  flex-direction: column;
+}
+.individual{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.project{
+  color:#4171c9;
+  line-height: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 330px;
+}
+.project img{
+  width:300px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.processProject{
+  display: flex;
+  flex-direction: column;
+  color:#4171c9
+}
+.aboutProject{
+  display: flex;
+  flex-direction: column;
+  color:#4171c9
+}
+.aboutPage{
+  display: flex;
+  flex-direction: row;
+  color:#4171c9;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+.aboutSarah{
+color:#4171c9;
+display: flex;
+flex-direction: column;
+}
+.sarahBio{
+  color:#4171c9;
+  line-height: 35px;
+  text-align: left;
+  padding:0px 50px 20px 50px
+}
+.sarahBio p{
+  padding: 0px 0 10px 0;
+}
+.sarahTitle{
+  font-size:20px;
+  text-align:left;
+  padding:50px 50px 0 50px;
+  font-weight: bold;
+}
+@media screen and (min-width: 490px){
+  .resumePic img{
+    border-color: #dae2ef;
+    border-style: solid;
+    background-color: #dae2ef;
+    border-width: 5px;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px
+  }
+
+  .link{
+    padding:10px;
+    font-size: 15px;
+    border-color: #4171c9;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #dae2ef;
+    align-content: end;
+    margin-bottom: 0px
+  }
+  .bodyResume{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    color:#4171c9;
+    align-items: center;
+    background-color: #dae2ef
+  }
+    .border{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 20px;
+      height: 100px;
+      color: white;
+    }
+    .navLink{
+      text-decoration: none;
+      padding-right: 15px;
+      color: white;
+      font-family:'Playfair Display', serif;
+    }
+    .imgsarah{
+      width:350px;
+      border-radius: 280px
+    }
+    .sarahBio{
+      color:#4171c9;
+      line-height: 35px;
+      text-align: left;
+      padding:0px 70px 40px 70px
+    }
+    .sarahBio p{
+      padding: 0px 0 10px 0;
+    }
+    .sarahTitle{
+      font-size:20px;
+      text-align:left;
+      padding:40px 70px 0 70px;
+      font-weight: bold;
+    }
+}
+@media screen and (min-width: 720px){
+  .resumePic img{
+    border-color: #dae2ef;
+    border-style: solid;
+    background-color: #dae2ef;
+    border-width: 5px;
+    height:1000px;
+    display: flex;
+    justify-content: center;
+    padding: 20px
+  }
+  .border{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    height: 100px;
+    color: white;
+  }
+  .navLink{
+    text-decoration: none;
+    padding-right: 20px;
+    color: white;
+    font-family:'Playfair Display', serif;
+  }
+
+  .live{
+    color:#4171c9;
+    border-color: #4171c9;
+    border-style: solid;
+    border-width: 3px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    align-self : center
+  }
+  .liveDiv{
+    display: flex;
+    justify-content: center;
+  }
+  .imgPreview{
+    flex-direction: column;
+  }
+  .individual{
+    display: flex;
+    justify-content: center;
+    align-items: center
+  }
+  .project{
+    color:#4171c9;
+    line-height: 30px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+  }
+  .project img{
+    width:350px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .processProject{
+    display: flex;
+    flex-direction: column;
+    color:#4171c9
+  }
+  .aboutProject{
+    display: flex;
+    flex-direction: column;
+    color:#4171c9
+  }
+  .sarahBio{
+    color:#4171c9;
+    line-height: 35px;
+    text-align: left;
+    padding:0px 100px 60px 100px
+  }
+  .sarahBio p{
+    padding: 0px 0 10px 0;
+  }
+  .sarahTitle{
+    font-size:20px;
+    text-align:left;
+    padding:60px 100px 0 100px;
+    font-weight: bold;
+  }
+  .link{
+    padding:10px;
+    font-size: 20px;
+    border-color: #4171c9;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #dae2ef;
+    align-content: end;
+    margin-bottom: 0px
+  }
+}
