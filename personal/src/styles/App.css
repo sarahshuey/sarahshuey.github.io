@@ -205,7 +205,7 @@ flex-direction: column;
 
   .link{
     padding:10px;
-    font-size: 12px;
+    font-size: 15px;
     border-color: #4171c9;
     border-width: 2px;
     border-style: solid;
@@ -343,5 +343,15 @@ flex-direction: column;
     text-align:left;
     padding:60px 100px 0 100px;
     font-weight: bold;
+  }
+  .link{
+    padding:10px;
+    font-size: 20px;
+    border-color: #4171c9;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #dae2ef;
+    align-content: end;
+    margin-bottom: 0px
   }
 }
