@@ -20,6 +20,9 @@ import preview from '../images/directory.png'
           </div>
           </div>
           </div>
+          <div className="code">
+          <a  className="live" style={{margin:"10px"}} target ="_blank" href="https://github.com/sarahshuey/music-player">View Code</a>
+          </div>
           </div>
         );
       }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import preview from '../images/directory.png'
+import preview from '../images/bartoncreek.png'
 
 
     class ProjectTwo extends Component {
@@ -7,18 +7,21 @@ import preview from '../images/directory.png'
         return (
           <div>
           <div className="projectHead">
-          <h2> Project 2</h2>
+          <h2> Barton Creek Cycling </h2>
           </div>
           <div className="project">
           <img src={preview} alt="project"></img>
           <div className="aboutProject">
           <h3> About </h3>
-        <p>This page was a mock up that I made in order to show my abilities to build a responsive web page.</p>
+        <p>This was a group project where we built a page for a local bike store, it shows where the store is located on a map, and a scrolling image effect on the images.</p>
         <div className="processProject">
         <h3> Process </h3>
-        <p>how I went about building it</p>
+        <p>First we figured out what the scope of the project was and then split the work between the three of us. Next I worked on the map location, styling, and responsivness. This project tested our abilities to work as a team and pushing to github without merge conflicts.</p>
           </div>
           </div>
+          </div>
+          <div className="code">
+          <a  className="live" style={{margin:"10px"}} target ="_blank" href="https://github.com/sarahshuey/music-player">View Code</a>
           </div>
           </div>
         );
