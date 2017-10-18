@@ -12,7 +12,7 @@ class Resume extends Component {
         <img src={resume} alt="Sarah Shuey Resume"></img>
       </div>
       <div className="link">
-      <Link activeClassName="selected" to="https://drive.google.com/drive/u/0/my-drive" target="_blank" style={{textDecoration:"none",color:"#4171c9"}}> Download Resume</Link>
+      <a href="https://drive.google.com/drive/u/0/my-drive" target="_blank" style={{textDecoration:"none",color:"#4171c9"}}> Download Resume</a>
       </div>
       </div>
     );
